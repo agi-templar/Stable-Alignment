@@ -1,0 +1,18 @@
+# environment
+venv/
+.env
+.idea/
+.DS_Store
+
+# cache
+data/
+
+# data
+*.csv
+
+# vscode
+.vscode/
+
+# module
+build/
+stable_alignment.egg-info/

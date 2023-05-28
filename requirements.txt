@@ -1,0 +1,15 @@
+colorama==0.4.3
+numpy==1.24.2
+openai==0.27.7
+openai[embeddings]==0.27.7
+python-dotenv==1.0.0
+tqdm==4.65.0
+pandas==1.5.3
+readerwriterlock==1.0.9
+absl-py==1.4.0
+setuptools==45.2.0
+transformers==4.28.1
+torch==1.13.1
+sentencepiece==0.1.98
+wandb==0.15.3
+tokenizers==0.13.3

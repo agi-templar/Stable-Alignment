@@ -1,9 +1,26 @@
-"""Initial experiment setup..
+#! /usr/bin/env python3
+# coding=utf-8
+
+# Ruibo Liu @Dartmouth College
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"""Launcher script for sandbox simulation.
 
 Example usage:
 
-python run_simulation.py -model_type 'text-davinci-002' -obs_model_type 'gpt-3.5-turbo' -world_id 1 -init_setting 'all_bad' -n_round '4' -size '10' -dataset_name 'hh-rlhf'
+python run_simulation.py -model_type 'text-davinci-003' -obs_model_type 'gpt-3.5-turbo' -world_id 1 -init_setting 'all_bad' -n_round '4' -size '10' -dataset_name 'hh-rlhf'
 """
+
 import argparse
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed

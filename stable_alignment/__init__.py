@@ -17,10 +17,10 @@
 
 from stable_alignment import alignment, sandbox, simulation
 
-__version__ = "0.0.1"
-
 __all__ = [
     "sandbox",
     "alignment",
     "simulation",
 ]
+
+__version__ = "0.0.1"

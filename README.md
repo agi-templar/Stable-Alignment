@@ -16,6 +16,8 @@ The repo contains:
 - The code for [training with stable alignment](#training-with-stable-alignment).
 - The download for [So(cially)-Good Language Model](#downloading-model).
 
+**Life is a game. Play by your rules!**
+
 <p>
 <img src="assets/images/overview.png" alt="Overview of Stable Alignment" style="width: 100%; min-width: 200px; display: block; margin: auto;">
 </p>

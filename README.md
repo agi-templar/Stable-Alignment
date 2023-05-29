@@ -130,5 +130,22 @@ Released models include:
 After you download the model, you can run inference with the following command:
 
 ```bash
-python stable_alignment/run_inference.py --model_path './models/socially-good-lm' --device 'cuda:0'
+python stable_alignment/run_inference.py \
+    --model_path './models/socially-good-lm' \
+    --device 'cuda:0'
+```
+
+# Citation
+
+Please cite our paper if you use the data or code in this repo:
+
+```bibtex
+@misc{liu2023sociallyaligned,
+      title={Training Socially Aligned Language Models in Simulated Human Society},
+      author={Ruibo Liu and Ruixin Yang and Chenyan Jia and Ge Zhang and Denny Zhou and Andrew M. Dai and Diyi Yang and Soroush Vosoughi},
+      year={2023},
+      eprint={2305.16960},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```

@@ -2,7 +2,7 @@
 <img src="assets/images/logo.gif" alt="Stable Alignment" style="width: 100%; min-width: 400px; display: block; margin: auto;">
 </p>
 
-# Stable Alignment
+# Stable Alignment - Alignment Learning in Social Games
 
 [![lint](https://github.com/DapangLiu/SandBox/actions/workflows/code_quality.yml/badge.svg)](https://github.com/DapangLiu/SandBox/blob/main/.github/workflows/code_quality.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

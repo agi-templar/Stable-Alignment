@@ -50,6 +50,8 @@ python stable_alignment/simulation.py \
     -dataset_name 'hh-rlhf'
 ```
 
+We present an example simulation result in `assets/sample_world`. It is simulated with 100 text-davinci-003 based social agents and ChatGPT based observer agents. The simulation is run for 50 rounds of interactions.
+
 ## Alignment Data Release
 
 <p>

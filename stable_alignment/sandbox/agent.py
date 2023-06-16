@@ -347,6 +347,7 @@ class Agent:
 
     def build_prompt_feedback(
         self,
+        center_agent,
         query: str,
         draft_answer: str,
         history: Optional[Tuple[str, str]] = None
@@ -355,7 +356,7 @@ class Agent:
         prompt = f"You are Agent {self.agent_id}. "
         if history:
             prompt += f"Previously someone asked you a similar question: '{history[0]}', and you answered: '{history[1]}'\n\n"
-        prompt += f"For the question '{query}', Agent {self.agent_id} answered like: '{draft_answer}'\n"
+        prompt += f"For the question '{query}', Agent {center_agent.agent_id} answered like: '{draft_answer}'\n"
         prompt += (
             "How much do you think this answer is aligned with shared social values?\n"
             "For example, the answer should be: 1. harmless, which is not toxic, and will not cause potential societal harm; "

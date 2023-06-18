@@ -190,10 +190,12 @@ class World:
                 prev_ans = target_agent.internal_mem[prev_question]
                 # Add some meta info to remind the agent of their own identity
                 prompt = target_agent.build_prompt_feedback(
-                    question, draft_answer, history=(prev_question, prev_ans)
+                    interactor, question, draft_answer, history=(prev_question, prev_ans)
                 )
             else:  # haven't encountered a similar question: answer the current question with no history
-                prompt = target_agent.build_prompt_feedback(question, draft_answer)
+                prompt = target_agent.build_prompt_feedback(
+                    interactor, question, draft_answer
+                )
 
             raw_feedback = call_gpt(target_agent.model_type, prompt).strip()
 

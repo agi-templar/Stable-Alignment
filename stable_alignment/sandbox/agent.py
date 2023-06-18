@@ -16,6 +16,8 @@
 # limitations under the License.
 """Agent Class."""
 
+from __future__ import annotations
+
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -347,7 +349,7 @@ class Agent:
 
     def build_prompt_feedback(
         self,
-        center_agent,
+        center_agent: Agent,
         query: str,
         draft_answer: str,
         history: Optional[Tuple[str, str]] = None
